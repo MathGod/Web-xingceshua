@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>对话框测试</title>
-
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+   <title>行测侠-在线行测刷题网站</title>
+   <meta name="description" content="行测侠，一个快捷、高效的在线刷行测题网站">
+   <link rel="stylesheet" href="css/style.css"> 
   </head>
- 
 <body>
-选择做题类型：
-言语理解与表达、数量关系、常识判断、判断推理、资料分析
+
+<form action="a.php" method="get"> 
+<input name="item" type="radio" value="yanyu" />言语理解与表达
+<input name="item" type="radio" value="shuliang" />数量关系 
+<input name="item" type="radio" value="changshi" />常识判断 
+<input name="item" type="radio" value="panduan" />判断推理 
+<input name="item" type="radio" value="ziliao" />资料分析 
+<input type="submit" value="确定">
+</form> 
+<br>
      <script>
-    	alert("对话框测试");
+    	alert("为保证浏览效果，请避免使用360浏览器");
     </script>
-	
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+<script>
+  new Darkmode().showWidget();
+</script>
 </body>
 </html>
